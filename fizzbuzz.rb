@@ -3,10 +3,8 @@ def fizzbuzz(number)
     "fizz"
   elsif (number % 5 == 0)
     "buzz"
-  elsif (number % 15 = 0)
+  elsif (number % 15 == 0)
     "fizzbuzz"
   else 
     nil
-end
-
 end
